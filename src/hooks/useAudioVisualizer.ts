@@ -202,7 +202,7 @@ export function useAudioVisualizer() {
       return { data: mock, average: 0, bass: 0 };
     }
 
-    analyserRef.current.getByteFrequencyData(dataArrayRef.current);
+    analyserRef.current.getByteFrequencyData(dataArrayRef.current as any);
     const data = dataArrayRef.current;
     let sum = 0;
     let bassSum = 0;
