@@ -8,8 +8,8 @@ export default defineConfig(() => {
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
-        '@': path.resolve(__dirname, '.'),
-        'next/image': path.resolve(__dirname, 'src/components/ui/NextImageShim.tsx'),
+        '@': path.resolve(import.meta.dirname, '.'),
+        'next/image': path.resolve(import.meta.dirname, 'src/components/ui/NextImageShim.tsx'),
       },
     },
     server: {
