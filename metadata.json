@@ -1,0 +1,6 @@
+{
+  "name": "TAI — Cinematic Underground Artist Experience",
+  "description": "An immersive, cinematic artist website for Turkish underground rap artist TAI, featuring dynamic 3D WebGL scenes, interactive discography, video archive, and audio visualizer.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
